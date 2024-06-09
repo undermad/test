@@ -48,7 +48,7 @@ export const NavigationBar = () => {
             </Stack>
             <List>
                 <ListItem onClick={handleDrawerToggle}>
-                    <Link to={"/"} style={{width: '100%'}}>
+                    <Link to={"www.fatatu.com"} style={{width: '100%'}}>
                         <Button sx={{width: '100%', justifyContent: 'flex-start' }}>Home</Button>
                     </Link>
                 </ListItem>
@@ -75,7 +75,7 @@ export const NavigationBar = () => {
                     <Stack direction={"row"} spacing={5}
                            sx={{display: {xs: 'none', sm: 'block'}}}>
                         <CustomIcon iconSource={fatatu}/>
-                        <Button component={"a"} href="http://localhost:5173/" sx={{color: "white"}}>
+                        <Button component={"a"} href="https://www.fatatu.com" sx={{color: "white"}}>
                             Fatatu
                         </Button>
 
@@ -101,7 +101,7 @@ export const NavigationBar = () => {
 
                         </IconButton>
                         <CustomIcon iconSource={fatatu}/>
-                        <Button component={"a"} href="http://localhost:5173/" sx={{color: "white"}}>
+                        <Button component={"a"} href="https://www.fatatu.com" sx={{color: "white"}}>
                             Fatatu
                         </Button>
                     </Stack>
